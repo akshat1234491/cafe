@@ -1,0 +1,73 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+
+body {
+  font-family: "Sora", sans-serif;
+}
+/*to add font style*/
+
+.item-button button{
+  margin-top: 20px;
+  width: 150px;
+  background-color: green;
+  color: white;
+}
+
+.spinner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 100;
+}
+
+.spinner-border{
+  height: 100px;
+  width: 100px;
+}
+
+.category{
+  border: 2px solid gray;
+  margin-right: 25px;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.category img{
+  margin-left: 10px;
+}
+
+.category-active{
+  border: 2px solid green;
+  background-color: rgba(128, 128, 128, 0.352) ;
+}
+
+.register{
+  display: flex;
+  border: 1px solid gray;
+  align-items: center;
+  flex-direction: column;
+  justify-items:center ;
+  height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.register input{
+  width:400px !important;
+}
+
+.register-form{
+  align-items: center;
+  margin-top: 80px;
+  background-color: rgba(127, 163, 238, 0.336);
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.register-form h1{
+  text-align: center;
+  background-color: aquamarine;
+  padding: 10px;
+  color: black;
+}
+
